@@ -1,0 +1,236 @@
+.navbar{
+    background-color: transparent;
+    border:2px solid white;
+    height:70px;
+    padding-top:12px;
+    position: fixed;
+    width:100%;
+}
+.navbar:hover{
+    background-color: rgb(7, 7, 7);
+    width:100%;
+    
+}
+.navbar li:hover{
+    
+    color:rgb(247, 12, 12);
+}
+.navbar li{
+    display:inline;
+    padding-right:20px;
+  color:white;
+}
+.nav1{
+    padding-left:20px;
+}
+.front{
+    margin-top:0px;
+    background-image: url("3476224.jpg");
+    background-size: cover;
+    height:750px;
+    color:white;
+}
+
+.welcome{
+    text-shadow: 2px 2px 4px #000000;
+    font-size:70px;
+    list-style:none;
+   padding-left:700px;
+    padding-top:250px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tagline{
+    text-shadow: 2px 2px 4px #000000;
+    padding-left:700px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:40px;
+    list-style:none;
+    word-spacing: 2px;
+   }
+
+.tagline span{
+    color:rgb(12, 224, 30);
+}
+
+.front h1{
+    background-color: transparent;
+    text-align:center;
+    font-size:20px;
+    margin-right:1000px;
+    margin-left:800px;
+    border:4px solid rgb(240, 236, 236);
+    padding-top:20px ;
+    padding-bottom: 20px;
+    border-radius:9px;
+    color:rgb(245, 250, 246);
+    font-weight: bold;
+    box-shadow: 8px 8px 3px #817f7f;
+    letter-spacing:1px;
+}
+.content , .secnd{
+    background-color: rgb(255, 248, 248);
+}
+.front h1:hover{
+  
+  background-color: white;
+  color:rgb(32, 238, 32);
+  transform: translateY(0) scale(2);
+}
+.content h1{
+ 
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size:50px;
+      margin-left:50px;
+      padding-right:10px;
+      color:rgb(11, 172, 24);
+}
+.content p, li{
+   
+    font-size:25px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right:30px;
+    list-style:none;
+}
+
+.content h2{
+    font-size:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(11, 172, 24);
+}
+
+.content img {
+    float:left;
+    margin-right:40px;
+    margin-left:40px;
+    height: 480px;
+    width: 500px;
+}
+
+
+.discover{
+    background-color: rgb(180, 175, 175);
+   
+}
+.discover h2{
+    font-weight: bold;
+    color: white;
+    padding-top:20px;
+    text-align:center;
+    font-size:40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.discover img{
+    margin-left:35px;
+   padding-top:30px; 
+   padding-right:50px;
+  padding-left:50px;
+   padding-bottom: 30px;
+   border-radius:50%;
+    height:350px;
+    width:450px;
+   
+}
+
+.secnd img{
+    float:left;
+    margin-right:20px;
+    margin-left:40px;
+    height:600px;
+    width:500px;
+}
+
+.secnd h2{
+    
+    color:rgb(11, 172, 24);
+    font-size:50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left:70px;
+}
+
+.secnd p,li{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size:23px;
+   padding-left:70px;
+   padding-right:40px;
+}
+
+.secnd h1{
+    padding-left:70px;
+    font-size:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(11, 172, 24);
+}
+.act1{
+    padding-left:70px;
+    font-size:25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.image {
+    background-color: rgb(180, 175, 175);
+}
+
+.image h1{
+    font-weight: bold;
+    padding-top:20px;
+    color:white;
+    text-align:center;
+    font-size:40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.image img{
+    margin-left:35px;
+   padding-top:30px; 
+   padding-right:50px;
+  padding-left:50px;
+   padding-bottom: 30px;
+   border-radius:50%;
+    height:350px;
+    width:450px;
+  
+}
+ .image img:hover, .discover img:hover {
+   border:2px solid white;
+    
+   
+ }
+ 
+
+.last{
+    float:left;
+   font-size:30px;
+   font-family: initial;
+   background-color: rgb(75, 72, 72);
+   height: 200px;
+   width:100%;
+   color:white;
+   padding:40px;
+   
+}
+.last h1{
+    
+    color:rgb(201, 198, 198);
+}
+.last h1,a{
+   display: inline;
+    
+}
+.last p{
+    text-align:right;
+    padding-right:20px;
+  
+}
+.h1{
+    padding-left: 1200px;
+}
+.fa{
+    padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: white;
+}
